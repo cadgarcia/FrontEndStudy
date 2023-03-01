@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS estruturas condicionais</title>
+</head>
+<body>
+    <script>
+        let idade = parseInt(prompt("Digite a sua idade:"));
+        let pedido;
+
+        if(idade < 18 || idade > 70){
+            alert("não pode comprar bebidas");
+            //continue;
+        }
+        else if(idade >= 18 && idade < 35){
+            alert("pode adquirir álcool");
+            let identidade = prompt("mostrou a identidade? Y/N");
+            if(identidade = 'Y' || identidade  = 'y'){
+                pedido = prompt("qual o seu pedido?");
+                alert("seu pedido é " + pedido);
+            }
+            else if(identidade = 'N' || identidade  = 'n'){
+                alert("não pode comprar sem identidade")
+                //17continue;
+            }
+        }
+        else{
+            pedido = prompt("qual o seu pedido?");
+            alert("seu pedido é " + pedido);
+        }
+    </script>
+
+
+    
+</body>
+</html>

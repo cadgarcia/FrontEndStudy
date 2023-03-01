@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS switch</title>
+</head>
+<body>
+    <script>
+        
+        let nota1 = 1.8;
+        let nota2 = 5.8;
+        let media = (nota1 + nota2)/2;
+        let conceito;
+
+        if(media >= 7){
+            console.log("Você passou com média " + media)
+        }
+        else if(media < 7){
+            console.log("Sua nota " + media + " foi insuficiente para passar");
+        }
+
+        if(media >= 8){
+            conceito = "ótimo";
+        }
+        else if(media >= 6.5){
+            conceito = "bom";
+        }
+        else{
+            conceito = "regular";
+        }
+        console.log(conceito);
+
+        conceito = "mais ou menos";
+
+        //SWITCH
+        switch(conceito){
+            case "ótimo":
+                console.log("Parabéns, vc assimilou bem a matéria");
+                break;
+            case "bom":
+                console.log("Parabéns, vc teve uma boa nota");
+                break;
+            case "regular":
+                console.log("Estude mais um pouco, vc pode melhorar");
+                break;
+            default:
+                console.log("Ocorreu algum erro");
+        }
+
+    </script>
+
+
+    
+</body>
+</html>
