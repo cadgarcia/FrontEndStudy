@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções em variáveis</title>
+</head>
+<body>
+    <script>
+        
+        function saudacao(){
+            return "Olá mundo";
+        }
+
+        //a funçao (TODA) é armazenada na variável s
+        var s = saudacao;
+
+        console.log(s);
+
+        function media(n1, n2){
+            var nota1 = n1;
+            var nota2 = n2;
+            var media = (nota1 + nota2) / 2;
+            // console.log(media);
+            return(media);
+        }
+
+        //armazenando funçào na variável
+        var m = media;
+        console.log(m(9, 10));
+
+        //aero function ou arrow setas
+        function media2(n1, n2){
+            var nota1 = n1;
+            var nota2 = n2;
+            var media = (nota1 + nota2) / 2;
+            // console.log(media);
+            return(media);
+        }
+
+        //armazenando funçào na variável
+        var n = media2;
+        console.log(m(9, 10));
+
+
+    </script>
+
+
+    
+</body>
+</html>

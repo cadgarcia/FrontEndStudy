@@ -9,45 +9,10 @@
 <body>
     <script>
         
-        let nota1 = 10.8;
-        let nota2 = 5.8;
-        let media = (nota1 + nota2)/2;
-        let conceito;
+        let qtde = parseInt(prompt("Quantas vezes vc quer executar o for?"));
 
-        if(media >= 7){
-            console.log("Você passou com média " + media)
-        }
-        else if(media < 7){
-            console.log("Sua nota " + media + " foi insuficiente para passar");
-        }
-
-        if(media >= 8){
-            conceito = "ótimo";
-        }
-        else if(media >= 6.5){
-            conceito = "bom";
-        }
-        else{
-            conceito = "regular";
-        }
-        console.log(conceito);
-
-        conceito = "mais ou menos";
-        console.log(media);
-
-        //SWITCH
-        switch(media){
-            case (media >= 7):
-                console.log("funcionou o switch");
-                break;
-            case (media >= 6):
-                console.log("Parabéns, vc teve uma boa nota");
-                break;
-            case (media < 6):
-                console.log("Estude mais um pouco, vc pode melhorar");
-                break;
-            default:
-                console.log("Ocorreu algum erro");
+        for(var i = 0; i < qtde; i++){
+            console.log("Esta é a " + i + "a vez que roda o for...");
         }
 
     </script>

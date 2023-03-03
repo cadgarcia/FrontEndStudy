@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While</title>
+</head>
+<body>
+    <script>3
+        let contador = 0;
+        let qtde = parseInt(prompt("Quantas vezes vc quer executar o FOR?"));
+
+        for(var i = 0; i < qtde; i++){
+            console.log("Esta é a " + (i+1) + "a vez que roda o For...");
+        }
+        console.log("Pronto... agora acabou o FOR.");
+        console.log("");
+
+        qtde = parseInt(prompt("Quantas vezes vc quer executar o WHILE?"));
+
+        while(contador < qtde){
+            console.log("Esta é a " + (contador+1) + "a vez que roda o While...");
+            contador++;
+        }
+        console.log("Pronto... agora acabou o WHILE.");
+        console.log("");
+
+        var numero = Math.random() * 100;
+
+        while(numero < 90){
+            console.log(numero);
+            var numero = Math.random() * 100;
+        }
+        console.log("Acabou com " + numero);
+        
+
+    </script>
+
+
+    
+</body>
+</html>

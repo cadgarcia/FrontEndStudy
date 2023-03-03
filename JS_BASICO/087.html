@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>3
+        
+        //método menos utilizado (com new)
+        let trouxas = new Array("Vini", "João");
+         console.log(trouxas);
+         console.log();
+        
+        let alunos = ["Basso", "Moreira", "Gado", "Muriel", "Haack"];
+        console.log(alunos);
+        console.log(alunos[1]);
+        console.log(alunos.length);
+        console.log("");
+
+        for(var i = 0; i < alunos.length; i++){
+            console.log(alunos[i]);
+        }
+        console.log("");
+
+        for(var i in alunos){
+            console.log(alunos[i])
+        }
+        console.log("");
+
+        for(var aluno of alunos){
+            console.log(aluno)
+        }
+        console.log("");
+
+    </script>
+
+
+    
+</body>
+</html>
