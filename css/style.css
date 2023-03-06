@@ -1,0 +1,19 @@
+/* p{
+    background-color: yellow;
+    color: blue;
+} */
+
+#paragrafo1{
+    color: red;
+    background-color: transparent;
+}
+
+
+.fundoAzul{
+    color: white;
+    background-color: blue;
+}
+
+.textoAmarelo{
+    color:  yellow;
+}

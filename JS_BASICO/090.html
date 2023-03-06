@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junta</title>
+</head>
+<body>
+
+    <script>
+
+        let nomes = ["Igor", "José", "Maria"];
+        let notasA = [7.0, 6.5, 9.5];
+        let notasB = [8.0, 7.0, 8.5];
+
+        function media(n1, n2){
+            return (n1 + n2) / 2;
+        }
+
+        function passou(media){
+            
+            var resultado = "reprovado";
+
+            if(media >= 7){
+                resultado = "aprovado";
+            }
+
+            return resultado;
+        }
+
+        for(var index in nomes){
+
+            var nota1 = notasA[index];
+            var nota2 = notasB[index];
+            var m = media(nota1, nota2);
+            var p = passou(m);
+
+            console.log(nomes[index] + " - " + nota1 + " - " + nota2 + " - " + m + " - " + p) ;
+
+        }
+
+
+    </script>
+
+
+    
+</body>
+</html>
