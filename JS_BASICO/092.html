@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos - funcões</title>
+</head>
+<body>
+
+    <script>
+
+        //adicionando métodos ao objeto
+
+        function calcMedia(){
+            return (this.notas[0] + this.notas[1]) / 2;
+        }
+
+        function imprime(){
+            console.log(this)
+        }
+
+        let aluno = new Object();
+            aluno.nome = "João";
+            aluno.notas = [9, 8];
+            aluno.anoNascimento = 1974;
+            
+            //adicionamos uma função
+            aluno.media =  calcMedia;
+
+            console.log(aluno.media());
+
+            //adicionar metodos para calcular idade a partir da data de nascimento
+            //adicionar console.log como método
+
+
+    </script>
+
+
+    
+</body>
+</html>
+
+
+

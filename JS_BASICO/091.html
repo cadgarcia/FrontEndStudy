@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+<body>
+
+    <script>
+
+        //conceito básico
+        //1ª forma de instanciar um objeto no js:
+
+        let objeto = {
+            nome: "João",
+            notas: [9.0, 8.0],
+            idade: 48,
+            estrangeiro: true,
+        }
+
+        console.log(objeto);
+
+        //OR
+
+        let aluno = {
+            nome: "João",
+            notas: [9.0, 8.0],
+            idade: 48,
+            estrangeiro: true,
+        }
+
+        console.log(aluno);
+
+        //pode-se adicionar novas propriedades ao objeto "após" o mesmo ter sido instanciado
+        aluno.cpf = "71070206091";
+        aluno.dataNasc = new Date(16/03/1974);
+
+        console.log(aluno);
+
+        //pode-se ter uma "variável" como propriedade do teu objeto
+        let novaPropriedade = "sobrenome";
+
+        aluno[novaPropriedade] = "Moreira";
+
+        console.log(aluno);
+
+        //na real, não precisa "instanciar" a variável, pode-se passar a "chave" entre aspas
+        aluno["rg"] = "2058775129";
+
+        console.log(aluno);
+
+
+
+
+        //outra formas de criar um objeto - a partir da classe object
+        let aluno1 = new Object();
+        aluno1.nome = "José";
+        aluno1.notas = [5.0 , 4.0];
+        aluno1["rg"] = "1234567";
+        console.log(aluno1);
+
+
+
+        //outra formas de criar um objeto - a partir da classe object
+        let aluno2 = new Object({nome: "Lucas", idade: 18, notas:[7.0, 8.0]});
+        console.log(aluno2);
+
+
+    </script>
+
+
+    
+</body>
+</html>
