@@ -1,0 +1,14 @@
+@font-face{
+    font-family: minhaFonte;
+    src: url(../fonts/Forum-Regular.ttf)
+}
+
+p {
+    font-family: 'minhaFonte', serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}

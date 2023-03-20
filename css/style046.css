@@ -1,0 +1,37 @@
+#azul {
+    height: 100px;
+    background-color: blue;
+}
+
+#vermelho {
+    height: 100px;
+    background-color: red;
+}
+
+#verde {
+    height: 100px;
+    background-color: green;
+}
+
+.comBorda{
+    margin-top: 10px;
+    height: 100px;
+    border-width: 5px 10px 15px 2px;
+    border-color: red green blue gray;
+    border-style: dashed;
+    border-radius: 30px;
+}
+
+.circulo{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+p {
+    padding: 10px;
+    border: 2px dotted green;
+    border-radius: 5px;
+}

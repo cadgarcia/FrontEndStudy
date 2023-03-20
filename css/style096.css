@@ -1,0 +1,15 @@
+#varlet {
+    font-size: 4em;   /*tamanho 64*/
+}
+
+#vars {
+    font-size: 0.5em;   /*tamanho 32*/
+}
+
+#lets {
+    font-size: 0.25em;  /*tamanho 16*/
+}
+
+#consts {
+    font-size: 1.5rem;  /*tamanho 24*/
+}

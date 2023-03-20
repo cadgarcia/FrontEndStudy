@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos com pseudo classes</title>
+</head>
+<body>
+
+    <script>
+
+        //pseudo-classes?
+        function aluno(nome, n1, n2){
+            this.nome = nome;
+            this.nota1 = n1;
+            this.nota2 = n2;
+
+            this.media = function(){
+                return (this.nota1 + this.nota2) / 2;
+            }
+        }
+
+        let a, b;
+
+        a = new aluno("Igor", 7 , 8);
+        b = new aluno("João", 7 , 8);
+
+        let c = [a, b];
+
+        for(var i = 0; i < c.length; i++){
+            console.log(c[i]);
+        }
+
+        for (var xx of c){
+        console.log(xx.nome + "-" + xx.media())
+}
+
+        // c.forEach(function(c) {
+        //     console.log(c);
+        // });
+
+
+        // console.log(a);
+        // console.log(b);
+      
+    </script>
+
+
+    
+</body>
+</html>
+
+
+

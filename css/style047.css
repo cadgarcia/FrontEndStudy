@@ -1,0 +1,24 @@
+#azul {
+    height: 100px;
+    background-color: blue;
+}
+
+#vermelho {
+    /* height: 100px; */
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 100px;
+    padding-right: 200px;
+}
+
+#verde {
+    height: 100px;
+    background-color: green;
+    /* margin-top: 10px; */
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

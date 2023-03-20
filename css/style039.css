@@ -1,0 +1,9 @@
+#verde {
+    height: 100px;
+    background: linear-gradient(90deg, red, green);
+}
+
+#azul {
+    height: 400px;
+    background: linear-gradient(0deg, white, blue);
+}

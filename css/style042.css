@@ -1,0 +1,22 @@
+/* fonte padrão do elemento p é 16px */
+
+/* aqui forço que o elemento pai tenha 15px */
+.container{
+    font-size: 12px;
+}
+
+/* aqui aplico 2x no tamanho do pai (12x2 = 24) */
+.exemplo1{
+    font-size: 2em;
+}
+
+/* aqui aplico 2x no tamanho padrão que ele deveria ter (16x2 = 32) */
+.exemplo2{
+    font-size: 2rem;
+}
+
+/* aqui aplico 2x no tamanho do pai - que no caso é o html (16x2 = 32) */
+.exemplo3{
+    font-size: 2rem;
+}
+

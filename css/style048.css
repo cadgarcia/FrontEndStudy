@@ -1,0 +1,27 @@
+#azul {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: border-box;
+    
+}
+
+#vermelho {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: content-box;
+    margin-top: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}

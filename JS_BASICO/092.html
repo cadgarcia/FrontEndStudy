@@ -16,10 +16,12 @@
             return (this.notas[0] + this.notas[1]) / 2;
         }
 
-        function imprime(){
-            console.log(this)
+        function calcIdade(){
+            return (2023 - this.anoNascimento);
         }
 
+
+        //criando os objetos
         let aluno = new Object();
             aluno.nome = "João";
             aluno.notas = [9, 8];
@@ -27,13 +29,14 @@
             
             //adicionamos uma função
             aluno.media =  calcMedia;
+            aluno.idade = calcIdade;
+       
 
             console.log(aluno.media());
+            console.log(aluno.idade());
 
-            //adicionar metodos para calcular idade a partir da data de nascimento
-            //adicionar console.log como método
-
-
+            console.log(aluno);
+      
     </script>
 
 
