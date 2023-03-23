@@ -1,0 +1,24 @@
+.card {
+    background-color: #ccc;
+    width: 300px;
+    height: 300px;
+
+    /* aqui temos algumas opções para o overflow */
+    /* a pior, estática é o hidden: */
+    /* overflow: hidden; */
+
+    /* outra opção é o scroll, que insere um scroll nos eixos x ou y*/
+    /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
+
+    /* ou simplesmente scroll para ambos os eixos */
+    /* overflox: scroll; */
+
+    /* para o css controlar automaticamente qual scroll é útil no caso, utilizar "auto": */
+    overflow: auto;
+
+}
+
+.loren {
+    font-size: 20px;
+}

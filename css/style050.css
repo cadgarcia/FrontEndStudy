@@ -1,0 +1,19 @@
+/* div pode ocupar todo espaço da tela, neste caso o margin auto a centraliza */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/* margin auto no texto tem um problema que é o seguinte, ele faz desaparecer as margins superiores e inferiores */
+p {
+    width: 400px;
+    margin: auto;
+}
+
+img {
+    width: 300px;
+    /* margin-left: auto;  */
+    text-align: center;
+}
